@@ -12,8 +12,8 @@ const HomeScreen = () => {
 
     const [activeCategory, setActiveCategory] = useState(0);
     return (
-        <ScrollView style={{ paddingTop: Constants.statusBarHeight, flex: 1 }}>
-            <SafeAreaView>
+        <SafeAreaView style={{ paddingTop: Constants.statusBarHeight, flex: 1 }}>
+        <ScrollView >
                 <View style={{
                     padding: SPACING * 2
                 }}>
@@ -100,8 +100,8 @@ const HomeScreen = () => {
                         ))}
                     </View>
                 </View>
-            </SafeAreaView>
         </ScrollView>
+        </SafeAreaView>
     )
 }
 
